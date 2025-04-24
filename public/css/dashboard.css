@@ -1,0 +1,96 @@
+
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    min-width: 150px;
+    padding: 5px 0;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+.dropdown-menu a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+    color: #007bff;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+
+.dropdown-toggle i {
+    margin-right: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.card {
+    height: 250px; /* Set a uniform height */
+    width: 100%; /* Ensures the card spans its column */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Adds consistent styling */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.training-card {
+    height: 100%; /* Ensures cards stretch uniformly */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%; /* Ensures the card spans its column */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Adds consistent styling */
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px; /* Ensure margin is consistent between visible cards */
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align content to fill card height */
+}
+
+.card-title,
+.card-date,
+.card-text,
+.card-status,
+.card-financial {
+    margin-bottom: 10px; /* Adds consistent spacing */
+}
+
+.mb-4 {
+    margin-bottom: 20px; /* Maintain consistent spacing between cards */
+}
+
